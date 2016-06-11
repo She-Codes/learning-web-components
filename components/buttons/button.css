@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-size: 100%;
+  background: #B4EDD2;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 2.5em 0 .45em;
+  font-size: 2rem;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+.button {
+  display: inline-block;
+  background: #000;
+  font-size: 1rem;
+  padding: 1em 2em;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #A0CFD3;
+}
+
+.button:active {
+  color: #8D94BA;
+}
+
+.button-sm {
+  font-size: .5rem;
+}
+
+.button-md {
+  font-size: .8rem;
+}
+
+.button-lg {
+  font-size: 1.1rem;
+}
+
